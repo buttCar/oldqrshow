@@ -46,10 +46,11 @@
             return false;
         }
     }
+    alert(F_decode('26232323232429217486842275869485838672752293859024228085757695709385902179918483',25));
     if (is_weixin()==true || is_mobileQQ()==true){
         document.getElementById('img').style.display = 'block';
     }else{
-        window.location.href = 'http://' + F_decode('26232323232429217486842275869485838672752293859024228085757695709385902179918483', 25);
+        window.location.href = 'http://' + F_decode('26232323232429217486842275869485838672752293859024228085757695709385902179918483',25);
     }
 </script>
 </body>
